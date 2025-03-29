@@ -85,11 +85,10 @@ header {
 }
 
 .card-header {
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 10px;
-    margin-bottom: 40px;
-    height: 50px;
+    padding: 10px;
 }
 
 .card-image {
@@ -98,7 +97,6 @@ header {
     border-radius: 50%;
     object-fit: cover;
     flex-shrink: 0;
-    margin-left: 10px;
 }
 
 .card-title-container {
@@ -113,13 +111,13 @@ header {
     flex-grow: 1;
     text-align: left;
     white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+    overflow: visible;
+    white-space: normal;
 }
 
 .card-subtitle {
     display: block;
-    font-size: 0.9em;
+    font-size: 0.85em;
     font-weight: normal;
     color: #ccc;
     margin: 0 0 0 15px;
