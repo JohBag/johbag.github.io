@@ -15,11 +15,11 @@ a {
 
 p, a {
     text-align: left;
+    text-wrap: balance;
 }
 
 header, p, h2, a {
     color: #fff;
-    margin: 10px;
 }
 
 /* Header */
@@ -31,12 +31,12 @@ header {
 /* Fade Animations */
 .fade-out {
     opacity: 0;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
 }
 
 .fade-in {
     opacity: 1;
-    transition: opacity 2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
 }
 
 /* Containers */
@@ -61,25 +61,27 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
     padding: 20px;
     background-color: #242627fe;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     margin-bottom: 20px;
+    max-width: 1000px;
 }
 
 .section-header {
     display: inline-block;
-    margin: 20px 0 40px;
-    font-size: 3em;
+    margin: 15px 0 15px;
+    font-size: 2.5em;
     color: #fff;
+    text-align: center;
 }
 
 /* Cards */
 .card {
+    width: 80%;
+    max-width: 600px;
     margin: 20px;
-    width: 50%;
 }
 
 .card-header {
@@ -125,20 +127,20 @@ header {
 
 /* About Me Section */
 #about-me {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    display: block;
 }
 
 #about-me img {
-    width: 200px;
-    border-radius: 5%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
     object-fit: cover;
     margin: 10px;
 }
 
 #about-me p {
-    width: 50%;
+    width: auto; /* Allow the paragraph to adjust its width */
+    margin: 10px;
 }
 
 #contact {
@@ -154,19 +156,26 @@ header {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
     z-index: 1000;
+    gap: 8px;
 }
 
+
 .language-button {
-    background: none;
-    border: none;
-    padding: 0;
+    background: transparent;
+    border: 1px solid #ffffffa6;
     cursor: pointer;
-    margin-left: 10px;
+    border-radius: 5px; /* Match the border-radius of the img */
+    overflow: hidden; /* Ensure the img stays within the button's rounded border */
+    width: 40px; /* Match the img width */
+    height: 30px; /* Match the img height */
+    display: flex; /* Center the img inside the button */
+    align-items: center;
+    justify-content: center;
 }
 
 .language-button-img {
+    border: 1px solid #ffffffa6;
     width: 40px;
     height: 30px;
     border-radius: 5px;
@@ -174,18 +183,16 @@ header {
 }
 
 #github-link {
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    z-index: 900;
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 50px;
 }
 
 #github-picture {
-    width: 64px;
-    height: 64px;
+    border: 1px solid #ffffffa6;
+    width: 48px;
+    height: 48px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }

@@ -85,46 +85,13 @@ function load(file) {
 	fetch('data/' + file)
 		.then(response => response.json())
 		.then(data => {
-			// About me
-			const personal = data.personal;
-
-			const aboutMe = document.createElement('div');
-			mainContainer.appendChild(aboutMe);
-			aboutMe.className = 'section';
-
-			const header = document.createElement('h2');
-			header.innerHTML = personal.title;
-			header.className = 'section-header';
-			header.id = 'about-me-header';
-			aboutMe.appendChild(header);
-
-			const div = document.createElement('div');
-			div.id = 'about-me';
-			aboutMe.appendChild(div);
-
-			const selfie = document.createElement('img');
-			selfie.id = 'selfie';
-			selfie.src = personal.image;
-			div.appendChild(selfie);
-
-			const letter = document.createElement('p');
-			letter.id = 'letter';
-			letter.innerHTML = personal.content;
-			div.appendChild(letter);
-
-			const contact = document.createElement('p');
-			contact.id = 'contact';
-			contact.innerHTML = personal.contact;
-			aboutMe.appendChild(contact);
-
-			// Experience
 			let cards = data.cards;
 			Object.keys(cards).forEach(key => {
 				const section = document.createElement('div');
 				section.className = 'section';
 
 				const sectionHeader = document.createElement('h2');
-				sectionHeader.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+				sectionHeader.innerHTML = key.charAt(0).toUpperCase() + key.slice(1);
 				sectionHeader.className = 'section-header';
 				section.appendChild(sectionHeader);
 
@@ -161,20 +128,20 @@ function createCard(cardData, container) {
 	titleContainer.className = 'card-title-container';
 
 	const title = document.createElement('h3');
-	title.textContent = cardData.title;
+	title.innerHTML = cardData.title;
 	title.className = 'card-title';
 	titleContainer.appendChild(title);
 
 	if (cardData.place) {
 		const place = document.createElement('p');
-		place.textContent = cardData.place;
+		place.innerHTML = cardData.place;
 		place.className = 'card-subtitle';
 		titleContainer.appendChild(place);
 	}
 
 	if (cardData.date) {
 		const date = document.createElement('p');
-		date.textContent = cardData.date;
+		date.innerHTML = cardData.date;
 		date.className = 'card-subtitle';
 		titleContainer.appendChild(date);
 	}
@@ -184,7 +151,7 @@ function createCard(cardData, container) {
 	card.appendChild(header);
 
 	const paragraph = document.createElement('p');
-	paragraph.textContent = cardData.content;
+	paragraph.innerHTML = cardData.content;
 	card.appendChild(paragraph);
 
 	container.appendChild(card);

@@ -1,5 +1,14 @@
 {
     "cards": {
+        "About me": [
+            {
+                "title": "Johan Bägerfeldt",
+                "place": "johan.bagerfeldt@gmail.com",
+                "link": "https://www.linkedin.com/in/johba/",
+                "content": "Welcome to my portfolio! My name is Johan, and I currently work as a software engineer at Aurobay in Skövde, Sweden. In my spare time, I create various games and programs for fun, both on my own and in collaboration with others.<br/><br/>I have experience in several programming languages, including Java, Python, C++, C#, and JavaScript. I'm also interested in AI and how it can be used to improve software development, as I already use GitHub Copilot to streamline and accelerate my workflow.<br/><br/>Feel free to reach out if you want to know more!",
+                "image": "images/me.png"
+            }
+        ],
         "Work Experience": [
             {
                 "title": "Software Engineer",
@@ -65,11 +74,5 @@
                 "content": "On my itch.io page, you can find several smaller games and projects that I have made. Many of these are experimental and were created to explore different game design concepts and techniques, particularly before I started studying computer science."
             }
         ]
-    },
-    "personal": {
-        "title": "About me",
-        "content": "Hello!<br/><br/>Welcome to my portfolio. My name is Johan, and I currently work as a software engineer at Aurobay in Skövde, Sweden. In my spare time, I create various games and programs for fun, both on my own and in collaboration with others.<br/><br/>I have experience in several programming languages, including Java, C++, C#, Python, and JavaScript. I'm also interested in AI and how it can be used to improve software development, as I already use GitHub Copilot to streamline and accelerate my workflow.<br/><br/>Feel free to reach out if you want to know more!<br/><br/>Kind regards,",
-        "image": "images/me.png",
-        "contact": "Johan Bägerfeldt<br/>johan.bagerfeldt@gmail.com"
     }
 }
