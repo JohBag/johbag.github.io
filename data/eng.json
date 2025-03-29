@@ -1,0 +1,75 @@
+{
+    "cards": {
+        "Work Experience": [
+            {
+                "title": "Software Engineer",
+                "link": "https://www.aurobay.com/",
+                "image": "images/logo/aurobay.png",
+                "place": "Aurobay",
+                "date": "June 2023 - Present",
+                "content": "Software engineer focusing on backend development in Java, working with agile methodologies. Responsible for designing and implementing new features, as well as maintaining and improving the existing codebase. Collaborates to ensure high quality and efficiency in the development process."
+            },
+            {
+                "title": "Summer Jobs",
+                "link": "https://www.sommarland.se/sommarjobb",
+                "image": "images/logo/sommarland.png",
+                "place": "Skara Sommarland",
+                "date": "Summers 2016, 2017, and 2018",
+                "content": "Worked as a park attendant and shopkeeper for three summers. Responsible for sales and park maintenance. Developed communication and problem-solving skills by working closely with visitors and colleagues."
+            }
+        ],
+        "Education": [
+            {
+                "title": "Computer Science",
+                "link": "https://www.his.se/utbildning/data-och-it/datavetenskap-inriktning-systemutveckling-dvsug/",
+                "image": "images/logo/his.jpg",
+                "place": "University of Skövde",
+                "date": "August 2020 - June 2023",
+                "content": "The program included courses in systems development, algorithms, databases, statistics, and AI. My thesis researched the effectiveness of automatic code generation with AI. Deepened my understanding of software development and problem-solving through practical projects and collaborations. Programming languages used included Java, C++, Python, and JavaScript."
+            },
+            {
+                "title": "Business and Economics",
+                "link": "https://www.oru.se/utbildning/program/civilekonomprogrammet/",
+                "image": "images/logo/oru.png",
+                "place": "Örebro University",
+                "date": "January 2018 - January 2020 (Not completed)",
+                "content": "Studied economic theory through courses in economics, business, and marketing. I later switched to computer science to focus on programming and systems development."
+            }
+        ],
+        "Projects": [
+            {
+                "title": "Interactive Discord Bot",
+                "place": "JavaScript",
+                "link": "https://github.com/JohBag/WST-Discord-Bot",
+                "image": "images/logo/bot.png",
+                "content": "Developed an interactive Discord bot in JavaScript with AI from OpenAI and Microsoft Azure, including GPT-4, Whisper, DALL·E, and Azure Text-to-Speech. The bot interacts with users via text and voice, generates images from text descriptions, and automates routine tasks with helpful features."
+            },
+            {
+                "title": "Bluevolution",
+                "place": "GameMaker",
+                "link": "https://store.steampowered.com/app/1324040/Bluevolution/",
+                "image": "images/logo/bluevolution.png",
+                "content": "Self-developed game made in GameMaker Studio 2 and released on Steam. Bluevolution is a game where you defend planets from waves of asteroids by utilizing various weapons and upgrades. This game was made before I started my education in computer science and allowed me to learn the full process of game development, from concept to release."
+            },
+            {
+                "title": "TinyMap",
+                "place": "Godot",
+                "image": "images/logo/tinymap.png",
+                "content": "My dream game in development using Godot. TinyMap is a strategy game focused on economics, where the player builds a civilisation from scratch and must manage resources and make strategic decisions to survive in a challenging world. Inspired by the Anno and Civilization series."
+            },
+            {
+                "title": "Other Game Development",
+                "place": "Godot, Unity, GameMaker",
+                "link": "https://johbag.itch.io/",
+                "image": "images/logo/player.png",
+                "content": "On my itch.io page, you can find several smaller games and projects that I have made. Many of these are experimental and were created to explore different game design concepts and techniques, particularly before I started studying computer science."
+            }
+        ]
+    },
+    "personal": {
+        "title": "About me",
+        "content": "Hello!<br/><br/>Welcome to my portfolio. My name is Johan, and I currently work as a software engineer at Aurobay in Skövde, Sweden. In my spare time, I create various games and programs for fun, both on my own and in collaboration with others.<br/><br/>I have experience in several programming languages, including Java, C++, C#, Python, and JavaScript. I'm also interested in AI and how it can be used to improve software development, as I already use GitHub Copilot to streamline and accelerate my workflow.<br/><br/>Feel free to reach out if you want to know more!<br/><br/>Kind regards,",
+        "image": "images/me.png",
+        "contact": "Johan Bägerfeldt<br/>johan.bagerfeldt@gmail.com"
+    }
+}
