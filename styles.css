@@ -146,27 +146,46 @@ header {
     margin-top: 50px;
 }
 
-/* Language Buttons */
-#language-buttons {
+/* Side bar */
+#side-bar {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.language-button {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.language-button-img {
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#github-link {
     position: fixed;
     top: 10px;
     left: 10px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    z-index: 1000;
+    z-index: 900;
 }
 
-#language-buttons button {
-    background: none;
-    border: none;
-    padding: 0;
-    cursor: pointer;
-}
-
-#language-buttons img {
-    width: 40px;
-    height: 30px;
+#github-picture {
+    width: 64px;
+    height: 64px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
