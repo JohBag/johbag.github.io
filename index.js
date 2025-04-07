@@ -1,15 +1,45 @@
 const get = id => document.getElementById(id);
 
-// Event listeners for language buttons
-get('swedish-button').addEventListener('click', () => {
-    load('swe.json');
-});
+const languages = ['swe', 'eng'];
+const languageButtons = {};
+let currentLanguage = 'eng';
 
-get('english-button').addEventListener('click', () => {
-    load('eng.json');
-});
+createLanguageButtons();
 
-load('eng.json'); // Default to English
+function loadLanguage(language) {
+	languageButtons[currentLanguage].style.display = 'flex';
+	languageButtons[language].style.display = 'none';
+
+	load(language);
+	currentLanguage = language;
+}
+
+function createLanguageButtons() {
+	const sidebar = get('sidebar');
+
+	languages.forEach(language => {
+		console.log(`Loading language: ${language}`);
+	
+		const button = document.createElement('button');
+		button.id = `${language}-button`;
+		button.className = 'language-button';
+	
+		const img = document.createElement('img');
+		img.src = `images/flags/${language}.png`;
+		img.alt = language.toUpperCase();
+		img.className = 'language-button-img';
+		button.appendChild(img);
+	
+		button.addEventListener('click', () => {
+			loadLanguage(language);
+		});
+	
+		sidebar.appendChild(button);
+		languageButtons[language] = button;
+	});
+
+	loadLanguage(languages[0]);
+}
 
 const timeout = 3000;
 const messages = [
@@ -38,7 +68,7 @@ const messages = [
 ];
 let prevIndex = 0;
 
-(async function loop() {
+(async function loopHeader() {
 	while (true) {
 		await updateHeader();
 	}
@@ -78,11 +108,13 @@ function nextMessage() {
 	return messages[randomIndex];
 }
 
-function load(file) {
+function load(filename) {
+	filename = filename +'.json';
+
 	const mainContainer = get('main-container');
     mainContainer.innerHTML = ''; // Clear existing content
 	
-	fetch('data/' + file)
+	fetch('data/' + filename)
 		.then(response => response.json())
 		.then(data => {
 			let cards = data.cards;
