@@ -57,8 +57,9 @@ header {
 }
 
 .card-header {
-    color: #ccc;
+    color: #ddd;
     text-align: center;
+    font-size: 1.5rem;
     margin: 1rem 0;
 }
 
