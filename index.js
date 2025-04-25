@@ -119,72 +119,79 @@ function load(filename) {
 		.then(data => {
 			let cards = data.cards;
 			Object.keys(cards).forEach(key => {
-				const section = document.createElement('div');
-				section.className = 'section';
+				const card = document.createElement('div');
+				card.className = 'card';
 
-				const sectionHeader = document.createElement('h2');
-				sectionHeader.innerHTML = key.charAt(0).toUpperCase() + key.slice(1);
-				sectionHeader.className = 'section-header';
-				section.appendChild(sectionHeader);
+				const cardHeader = document.createElement('h2');
+				cardHeader.innerHTML = key.charAt(0).toUpperCase() + key.slice(1);
+				cardHeader.className = 'card-header';
+				card.appendChild(cardHeader);
 
-				section.id = key;
+				card.id = key;
 				cards[key].forEach(item => {
-					createCard(item, section);
+					createSection(item, card);
 				});
 
-				mainContainer.appendChild(section);
+				mainContainer.appendChild(card);
 			});
 
 		});
 }
 
-function createCard(cardData, container) {
-	const card = document.createElement('div');
-	card.className = 'card';
+function createSection(sectionData, container) {
+	const section = document.createElement('div');
+	section.className = 'section';
 
-	const header = document.createElement('a');
-	header.className = 'card-header';
-	if (cardData.link) {
-		header.href = cardData.link;
-	}
-
-	if (cardData.image) {
+	const header = document.createElement('div');
+	header.className = 'section-header';
+	
+	if (sectionData.image) {
 		const img = document.createElement('img');
-		img.src = cardData.image;
-		img.alt = cardData.title;
-		img.className = 'card-image';
-		header.appendChild(img);
+		img.src = sectionData.image;
+		img.alt = sectionData.title;
+		img.className = 'section-image';
+		
+		if (sectionData.link) {
+			const link = document.createElement('a');
+			link.href = sectionData.link;
+			link.target = '_blank'; // Open link in a new tab
+			link.rel = 'noopener noreferrer'; // Security measure to prevent access to the previous page
+			link.appendChild(img);
+			header.appendChild(link);
+		} else {
+			header.appendChild(img);
+		}
 	}
 
 	const titleContainer = document.createElement('div');
-	titleContainer.className = 'card-title-container';
+	titleContainer.className = 'section-title-container';
 
 	const title = document.createElement('h3');
-	title.innerHTML = cardData.title;
-	title.className = 'card-title';
+	title.innerHTML = sectionData.title;
+	title.className = 'section-title';
 	titleContainer.appendChild(title);
 
-	if (cardData.place) {
+	if (sectionData.place) {
 		const place = document.createElement('p');
-		place.innerHTML = cardData.place;
-		place.className = 'card-subtitle';
+		place.innerHTML = sectionData.place;
+		place.className = 'section-subtitle';
 		titleContainer.appendChild(place);
 	}
 
-	if (cardData.date) {
+	if (sectionData.date) {
 		const date = document.createElement('p');
-		date.innerHTML = cardData.date;
-		date.className = 'card-subtitle';
+		date.innerHTML = sectionData.date;
+		date.className = 'section-subtitle';
 		titleContainer.appendChild(date);
 	}
 
-	header.appendChild(titleContainer);
-
-	card.appendChild(header);
+	section.appendChild(header);
+	section.appendChild(titleContainer);
 
 	const paragraph = document.createElement('p');
-	paragraph.innerHTML = cardData.content;
-	card.appendChild(paragraph);
+	paragraph.innerHTML = sectionData.content;
+	paragraph.className = 'section-text';
+	section.appendChild(paragraph);
 
-	container.appendChild(card);
+	container.appendChild(section);
 }
