@@ -18,8 +18,6 @@ function createLanguageButtons() {
 	const sidebar = get('sidebar');
 
 	languages.forEach(language => {
-		console.log(`Loading language: ${language}`);
-	
 		const button = document.createElement('button');
 		button.id = `${language}-button`;
 		button.className = 'language-button';
@@ -77,8 +75,6 @@ let prevIndex = 0;
 function updateHeader() {
 	return new Promise(resolve => {
 		setTimeout(() => {
-			console.log("Updating header...");
-
 			let header = get("header");
 			header.classList.add("fade-out");
 			header.addEventListener("transitionend", function onTransitionEnd() {
@@ -91,7 +87,6 @@ function updateHeader() {
 					header.removeEventListener("transitionend", onFadeInEnd);
 					header.classList.remove("fade-in");
 
-					console.log("Header updated.");
 					resolve();
 				});
 			});
