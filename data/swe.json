@@ -66,13 +66,13 @@
                 "place": "GameMaker",
                 "link": "https://store.steampowered.com/app/1324040/Bluevolution/",
                 "image": "images/logo/bluevolution.png",
-                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet gjordes innan jag började min utbildning i datavetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklingsprocessen, från koncept till release."
+                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet skapades innan jag började min utbildning i datavetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklingsprocessen, från koncept till release."
             },
             {
                 "title": "TinyMap",
                 "place": "Godot",
                 "image": "images/logo/tinymap.png",
-                "content": "Mitt drömspel under utveckling i Godot. TinyMap är ett strategispel med fokus på ekonomi, där spelaren bygger upp en civilisation från grunden och måste hantera resurser och fatta strategiska beslut för att överleva i en utmanande värld. Inspirerat av Anno- och Civilization-serierna."
+                "content": "Mitt drömspel under utveckling i Godot. TinyMap är ett strategispel inspirerat av Anno- och Civilization-serierna med fokus på ekonomi, där spelaren bygger upp en civilisation från grunden och måste hantera resurser och fatta strategiska beslut för att överleva i en utmanande värld. Projektet är fortfarande i en tidig utvecklingsfas och jag arbetar på att implementera de grundläggande mekanikerna och speldesignen."
             },
             {
                 "title": "Övrig spelutveckling",

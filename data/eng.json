@@ -72,7 +72,7 @@
                 "title": "TinyMap",
                 "place": "Godot",
                 "image": "images/logo/tinymap.png",
-                "content": "My dream game in development using Godot. TinyMap is a strategy game focused on economics, where the player builds a civilisation from scratch and must manage resources and make strategic decisions to survive in a challenging world. Inspired by the Anno and Civilization series."
+                "content": "My dream game in development using Godot. TinyMap is a strategy game inspired by the Anno and Civilization series with a focus on economics, where the player builds a civilisation from scratch and must manage resources and make strategic decisions to survive in a challenging world. The project is still in early development and I am working on implementing the basic mechanics and game design."
             },
             {
                 "title": "Other Game Development",
