@@ -108,6 +108,7 @@ header {
 
 .section-text {
     margin: 1rem 1rem;
+    hyphens: manual;
 }
 
 /* Side bar */

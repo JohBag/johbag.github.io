@@ -5,18 +5,18 @@
                 "title": "Johan Bägerfeldt",
                 "place": "johan.bagerfeldt@gmail.com",
                 "link": "https://www.linkedin.com/in/johba/",
-                "content": "Välkommen till min portfolio! Jag heter Johan och jobbar för närvarande som mjukvaruingenjör på Aurobay i Skövde. På fritiden skapar jag olika spel och program för nöjes skull, både på egen hand och i samarbete med andra.<br><br>Jag har erfarenhet av flera programmeringsspråk, inklusive Java, Python, C++, C#, och JavaScript. Jag är också intresserad av AI och hur det kan användas för att förbättra mjukvaruutveckling, då jag redan använder GitHub Copilot för att effektivisera och accelerera mitt arbetsflöde.<br><br>Hör gärna av dig om du vill veta mer!",
+                "content": "Välkommen till min portfolio! Jag heter Johan och jobbar för närvarande som mjukvaru&shy;ingenjör på Aurobay i Skövde. På fritiden skapar jag olika spel och program för nöjes skull, både på egen hand och i samarbete med andra.<br><br>Jag har erfarenhet av flera programmerings&shy;språk, inklusive Java, Python, C++, C#, och JavaScript. Jag är också intresserad av AI och hur det kan användas för att förbättra mjukvaru&shy;utveckling, då jag redan använder GitHub Copilot för att effektivisera och accelerera mitt arbetsflöde.<br><br>Hör gärna av dig om du vill veta mer!",
                 "image": "images/me.png"
             }
         ],
-        "arbetserfarenhet": [
+        "arbets&shy;erfarenhet": [
             {
-                "title": "Mjukvaruingenjör",
+                "title": "Mjukvaru&shy;ingenjör",
                 "link": "https://www.aurobay.com/",
                 "image": "images/logo/aurobay.png",
                 "place": "Aurobay",
                 "date": "Juni 2023 - Nuvarande",
-                "content": "Mjukvaruingenjör med fokus på backend-utveckling i Java. Ansvarig för att designa och implementera nya funktioner, samt underhålla och förbättra den befintliga kodbasen. Samarbetar för att säkerställa hög kvalitet och effektivitet i utvecklingsprocessen. Använder agila metoder."
+                "content": "Mjukvaru&shy;ingenjör med fokus på backend&shy;utveckling i Java. Ansvarig för att designa och implementera nya funktioner, samt underhålla och förbättra den befintliga kodbasen. Samarbetar för att säkerställa hög kvalitet och effektivitet i utvecklings&shy;processen. Använder agila metoder."
             },
             {
                 "title": "Konsult",
@@ -24,7 +24,7 @@
                 "image": "images/logo/hubbau.png",
                 "place": "Hubbau",
                 "date": "Juni 2023 - Augusti 2024",
-                "content": "Konsult på Aurobay genom Hubbaus talangprogram. Programmet kombinerade teknisk utbildning, utveckling av mjuka färdigheter, och mentorskap. Efter programmets avslut övergick konsultuppdraget till en fast anställning hos Aurobay."
+                "content": "Konsult på Aurobay genom Hubbaus talang&shy;program. Programmet kombinerade teknisk utbildning, utveckling av mjuka färdigheter, och mentorskap. Efter programmets avslut övergick konsult&shy;uppdraget till en fast anställning hos Aurobay."
             },
             {
                 "title": "Sommarjobb",
@@ -32,7 +32,7 @@
                 "image": "images/logo/sommarland.png",
                 "place": "Skara Sommarland",
                 "date": "Sommar 2016, 2017, och 2018",
-                "content": "Arbetade som parkvärd och butiksvärd under tre somrar med ansvar för försäljning och parkunderhåll. Utvecklade mina kommunikations- och problemlösningsförmågor genom nära samarbete med besökare och kollegor."
+                "content": "Arbetade som parkvärd och butiksvärd under tre somrar med ansvar för försäljning och parkunderhåll. Utvecklade mina kommunikations- och problemlösnings&shy;förmågor genom nära samarbete med besökare och kollegor."
             }
         ],
         "utbildning": [
@@ -42,15 +42,15 @@
                 "image": "images/logo/his.jpg",
                 "place": "Högskolan i Skövde",
                 "date": "Augusti 2020 - Juni 2023",
-                "content": "Utbildningen inkluderade kurser i systemutveckling, algoritmer, databaser, statistik, och AI. Examensarbetet undersökte effektiviteten av automatisk kodgenerering med AI. Fördjupade min förståelse för mjukvaruutveckling och problemlösning genom praktiska projekt och samarbeten. Programmeringsspråk som användes inkluderar Java, C++, Python, och JavaScript."
+                "content": "Utbildningen inkluderade kurser i system&shy;utveckling, algoritmer, databaser, statistik, och AI. Examens&shy;arbetet undersökte effektiviteten av automatisk kodgenerering med AI. Fördjupade min förståelse för mjukvaru&shy;utveckling och problem&shy;lösning genom praktiska projekt och samarbeten. Programmerings&shy;språk som användes inkluderar Java, C++, Python, och JavaScript."
             },
             {
-                "title": "Civilekonomprogrammet",
+                "title": "Civilekonom&shy;programmet",
                 "link": "https://www.oru.se/utbildning/program/civilekonomprogrammet/",
                 "image": "images/logo/oru.png",
                 "place": "Örebro universitet",
                 "date": "Januari 2018 - Januari 2020",
-                "content": "Utvecklade kunskaper inom ekonomisk teori genom kurser i nationalekonomi, företagsekonomi, och marknadsföring. Bytte inriktning till datavetenskap för att fokusera på programmering och systemutveckling."
+                "content": "Utvecklade kunskaper inom ekonomisk teori genom kurser i national&shy;ekonomi, företags&shy;ekonomi, och marknadsföring. Bytte inriktning till datavetenskap för att fokusera på programmering och system&shy;utveckling."
             }
         ],
         "projekt": [
@@ -59,14 +59,14 @@
                 "place": "JavaScript",
                 "link": "https://github.com/JohBag/WST-Discord-Bot",
                 "image": "images/logo/bot.png",
-                "content": "Utvecklade en interaktiv Discord-bot i JavaScript med AI från OpenAI och Microsoft Azure, inklusive GPT-4, Whisper, DALL·E, och Azure Text-to-Speech. Boten interagerar med användare via text och röst, genererar bilder från textbeskrivningar, och automatiserar rutinuppgifter med hjälpsamma funktioner."
+                "content": "Utvecklade en interaktiv Discord-bot i JavaScript med AI från OpenAI och Microsoft Azure, inklusive GPT-4, Whisper, DALL·E, och Azure Text-to-Speech. Boten interagerar med användare via text och röst, genererar bilder från text&shy;beskrivningar, och automatiserar rutin&shy;uppgifter med hjälpsamma funktioner."
             },
             {
                 "title": "Bluevolution",
                 "place": "GameMaker",
                 "link": "https://store.steampowered.com/app/1324040/Bluevolution/",
                 "image": "images/logo/bluevolution.png",
-                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet skapades innan jag började min utbildning i datavetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklingsprocessen, från koncept till release."
+                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet skapades innan jag började min utbildning i datavetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklings&shy;processen, från koncept till release."
             },
             {
                 "title": "TinyMap",
@@ -79,7 +79,7 @@
                 "place": "Godot, Unity, GameMaker",
                 "link": "https://johbag.itch.io/",
                 "image": "images/logo/player.png",
-                "content": "På min itch.io-sida kan du hitta flera mindre spel och projekt som jag har skapat. Många av dessa är experimentella och skapades för att utforska olika speldesignkoncept och tekniker, framför allt innan jag började studera datavetenskap."
+                "content": "På min itch.io-sida kan du hitta flera mindre spel och projekt som jag har skapat. Många av dessa är experimentella och skapades för att utforska olika speldesign&shy;koncept och tekniker, framför allt innan jag började studera datavetenskap."
             }
         ]
     }
