@@ -50,7 +50,7 @@
                 "image": "images/logo/oru.png",
                 "place": "Örebro universitet",
                 "date": "Januari 2018 - Januari 2020",
-                "content": "Utvecklade kunskaper inom ekonomisk teori genom kurser i national&shy;ekonomi, företags&shy;ekonomi, och marknadsföring. Bytte inriktning till datavetenskap för att fokusera på programmering och system&shy;utveckling."
+                "content": "Utvecklade kunskaper inom ekonomisk teori genom kurser i national&shy;ekonomi, företags&shy;ekonomi, och marknadsföring. Bytte inriktning till data&shy;vetenskap för att fokusera på programmering och system&shy;utveckling."
             }
         ],
         "projekt": [
@@ -59,27 +59,27 @@
                 "place": "JavaScript",
                 "link": "https://github.com/JohBag/WST-Discord-Bot",
                 "image": "images/logo/bot.png",
-                "content": "Utvecklade en interaktiv Discord-bot i JavaScript med AI från OpenAI och Microsoft Azure, inklusive GPT-4, Whisper, DALL·E, och Azure Text-to-Speech. Boten interagerar med användare via text och röst, genererar bilder från text&shy;beskrivningar, och automatiserar rutin&shy;uppgifter med hjälpsamma funktioner."
+                "content": "Utvecklade en interaktiv Discord-bot i JavaScript med AI från OpenAI och Microsoft Azure, inklusive GPT-4o, Whisper, DALL·E, och Azure Text-to-Speech. Boten interagerar med användare via text och röst, genererar bilder från text&shy;beskrivningar, och automatiserar rutin&shy;uppgifter med hjälpsamma funktioner."
             },
             {
                 "title": "Bluevolution",
                 "place": "GameMaker",
                 "link": "https://store.steampowered.com/app/1324040/Bluevolution/",
                 "image": "images/logo/bluevolution.png",
-                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet skapades innan jag började min utbildning i datavetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklings&shy;processen, från koncept till release."
+                "content": "Egenutvecklat spel gjort i GameMaker Studio 2 och släppt på Steam. Bluevolution är ett spel där du försvarar planeter från vågor av asteroider genom att använda olika vapen och uppgraderingar. Det här spelet skapades innan jag påbörjade min utbildning i data&shy;vetenskap och gjorde det möjligt för mig att lära mig hela spelutvecklings&shy;processen, från koncept till release."
             },
             {
                 "title": "TinyMap",
                 "place": "Godot",
                 "image": "images/logo/tinymap.png",
-                "content": "Mitt drömspel under utveckling i Godot. TinyMap är ett strategispel inspirerat av Anno- och Civilization-serierna med fokus på ekonomi, där spelaren bygger upp en civilisation från grunden och måste hantera resurser och fatta strategiska beslut för att överleva i en utmanande värld. Projektet är fortfarande i en tidig utvecklingsfas och jag arbetar på att implementera de grundläggande mekanikerna och speldesignen."
+                "content": "Mitt drömspel under utveckling i Godot. TinyMap är ett strategi&shy;spel inspirerat av Anno- och Civilization-serierna med fokus på ekonomi, där spelaren bygger upp en civilisation från grunden och måste hantera resurser och fatta strategiska beslut för att överleva i en utmanande värld. Projektet är fortfarande i en tidig utvecklings&shy;fas och jag arbetar på att implementera de grund&shy;läggande mekanikerna och spel&shy;designen."
             },
             {
                 "title": "Övrig spelutveckling",
                 "place": "Godot, Unity, GameMaker",
                 "link": "https://johbag.itch.io/",
                 "image": "images/logo/player.png",
-                "content": "På min itch.io-sida kan du hitta flera mindre spel och projekt som jag har skapat. Många av dessa är experimentella och skapades för att utforska olika speldesign&shy;koncept och tekniker, framför allt innan jag började studera datavetenskap."
+                "content": "På min itch.io-sida kan du hitta flera mindre spel och projekt som jag har skapat. Många av dessa är experimentella och skapades för att utforska olika speldesign&shy;koncept och tekniker, framför allt innan jag började studera data&shy;vetenskap."
             }
         ]
     }

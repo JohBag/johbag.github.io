@@ -59,7 +59,7 @@
                 "place": "JavaScript",
                 "link": "https://github.com/JohBag/WST-Discord-Bot",
                 "image": "images/logo/bot.png",
-                "content": "Developed an interactive Discord bot in JavaScript with AI from OpenAI and Microsoft Azure, including GPT-4, Whisper, DALL·E, and Azure Text-to-Speech. The bot interacts with users via text and voice, generates images from text descriptions, and automates routine tasks with helpful features."
+                "content": "Developed an interactive Discord bot in JavaScript with AI from OpenAI and Microsoft Azure, including GPT-4o, Whisper, DALL·E, and Azure Text-to-Speech. The bot interacts with users via text and voice, generates images from text descriptions, and automates routine tasks with helpful features."
             },
             {
                 "title": "Bluevolution",
