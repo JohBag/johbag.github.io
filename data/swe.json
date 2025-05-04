@@ -5,18 +5,18 @@
                 "title": "Johan Bägerfeldt",
                 "place": "johan.bagerfeldt@gmail.com",
                 "link": "https://www.linkedin.com/in/johba/",
-                "content": "Välkommen till min portfolio! Jag heter Johan och jobbar för närvarande som mjukvaru&shy;ingenjör på Aurobay i Skövde. På fritiden skapar jag olika spel och program för nöjes skull, både på egen hand och i samarbete med andra.<br><br>Jag har erfarenhet av flera programmerings&shy;språk, inklusive Java, Python, C++, C#, och JavaScript. Jag är också intresserad av AI och hur det kan användas för att förbättra mjukvaru&shy;utveckling, då jag redan använder GitHub Copilot för att effektivisera och accelerera mitt arbetsflöde.<br><br>Hör gärna av dig om du vill veta mer!",
+                "content": "Välkommen till min portfolio! Jag heter Johan och jobbar för närvarande som system&shy;utvecklare på Aurobay i Skövde. På fritiden skapar jag olika spel och program för nöjes skull, både på egen hand och i samarbete med andra.<br><br>Jag har erfarenhet av flera programmerings&shy;språk, inklusive Java, Python, C++, C#, och JavaScript. Jag är också intresserad av AI och hur det kan användas för att förbättra mjukvaru&shy;utveckling, då jag redan använder GitHub Copilot för att effektivisera och accelerera mitt arbetsflöde.<br><br>Hör gärna av dig om du vill veta mer!",
                 "image": "images/me.png"
             }
         ],
         "arbets&shy;erfarenhet": [
             {
-                "title": "Mjukvaru&shy;ingenjör",
+                "title": "System&shy;utvecklare",
                 "link": "https://www.aurobay.com/",
                 "image": "images/logo/aurobay.png",
                 "place": "Aurobay",
                 "date": "Juni 2023 - Nuvarande",
-                "content": "Mjukvaru&shy;ingenjör med fokus på backend&shy;utveckling i Java. Ansvarig för att designa och implementera nya funktioner, samt underhålla och förbättra den befintliga kodbasen. Samarbetar för att säkerställa hög kvalitet och effektivitet i utvecklings&shy;processen. Använder agila metoder."
+                "content": "System&shy;utvecklare med fokus på backend&shy;utveckling i Java. Ansvarig för att designa och implementera nya funktioner, samt underhålla och förbättra den befintliga kodbasen. Samarbetar för att säkerställa hög kvalitet och effektivitet i utvecklings&shy;processen. Använder agila metoder."
             },
             {
                 "title": "Konsult",

@@ -5,18 +5,18 @@
                 "title": "Johan Bägerfeldt",
                 "place": "johan.bagerfeldt@gmail.com",
                 "link": "https://www.linkedin.com/in/johba/",
-                "content": "Welcome to my portfolio! My name is Johan, and I currently work as a software engineer at Aurobay in Skövde, Sweden. In my spare time, I create various games and programs for fun, both on my own and in collaboration with others.<br/><br/>I have experience in several programming languages, including Java, Python, C++, C#, and JavaScript. I'm also interested in AI and how it can be used to improve software development, as I already use GitHub Copilot to streamline and accelerate my workflow.<br/><br/>Feel free to reach out if you want to know more!",
+                "content": "Welcome to my portfolio! My name is Johan, and I currently work as a software developer at Aurobay in Skövde, Sweden. In my spare time, I create various games and programs for fun, both on my own and in collaboration with others.<br/><br/>I have experience in several programming languages, including Java, Python, C++, C#, and JavaScript. I'm also interested in AI and how it can be used to improve software development, as I already use GitHub Copilot to streamline and accelerate my workflow.<br/><br/>Feel free to reach out if you want to know more!",
                 "image": "images/me.png"
             }
         ],
         "Work Experience": [
             {
-                "title": "Software Engineer",
+                "title": "Software Developer",
                 "link": "https://www.aurobay.com/",
                 "image": "images/logo/aurobay.png",
                 "place": "Aurobay",
                 "date": "June 2023 - Present",
-                "content": "Software engineer focusing on backend development in Java. Responsible for designing and implementing new features, as well as maintaining and improving the existing codebase. Collaborates to ensure high quality and efficiency in the development process. Uses agile methods."
+                "content": "Software developer focusing on backend development in Java. Responsible for designing and implementing new features, as well as maintaining and improving the existing codebase. Collaborates to ensure high quality and efficiency in the development process. Uses agile methods."
             },
             {
                 "title": "Consultant",
